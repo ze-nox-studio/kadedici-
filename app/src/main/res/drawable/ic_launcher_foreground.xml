@@ -1,0 +1,40 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Glowing background aura effect -->
+    <path
+        android:fillColor="#1DB954"
+        android:pathData="M54,18 A36,36 0 1,1 54,90 A36,36 0 1,1 54,18"
+        android:fillAlpha="0.15" />
+    
+    <!-- Outer tracking circle -->
+    <path
+        android:strokeColor="#1DB954"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M54,26 A28,28 0 1,1 54,82 A28,28 0 1,1 54,26" />
+        
+    <!-- Book/Calendar pages combined inside the tracking circle -->
+    <path
+        android:fillColor="#1DB954"
+        android:pathData="M38,44h32v24H38z" />
+
+    <!-- Clock needle of focus tracking -->
+    <path
+        android:strokeColor="#191414"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M54,56 L54,48 M54,56 L62,56" />
+
+    <!-- Academic Cap overlay representing study metrics success -->
+    <path
+        android:fillColor="#FFFDFD"
+        android:pathData="M54,34 L72,42 L54,50 L36,42 Z" />
+    <path
+        android:strokeColor="#FFFDFD"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M66,45 L66,54" />
+</vector>

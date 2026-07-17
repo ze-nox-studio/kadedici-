@@ -1,0 +1,6 @@
+{
+  "name": "Study Schedule & Tracker",
+  "description": "An advanced, eye-friendly Study Schedule, Pomodoro Focus Timer, progress tracker, and PIN-protected multi-profile Mentor Tracking platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
